@@ -8,7 +8,7 @@ RUN gradle dependencies --no-daemon || true
 
 COPY src ./src
 
-RUN gradle build --no-daemon -x test
+RUN gradle build --no-daemon
 
 # 2. 실행 단계
 FROM eclipse-temurin:24-jdk
