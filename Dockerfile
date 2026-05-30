@@ -1,4 +1,4 @@
-# 1. 빌드 단계
+# 1. 빌드 단계.
 FROM gradle:8.14.3-jdk24 AS builder
 
 WORKDIR /app
